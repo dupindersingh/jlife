@@ -28,7 +28,6 @@ export default class Signup extends React.Component {
 
     phoneLogin(e) {
         e.preventDefault();
-        alert("callde")
         const thi = this;
         const phoneNumber = thi.state.phoneNumber;
         const appVerifier = window.recaptchaVerifier;
@@ -94,7 +93,6 @@ export default class Signup extends React.Component {
                         if (!!thi.state.code) {
                             console.log(thi.state.confirmResult, "thi.state.confirmResult")
                             thi.state.confirmResult.confirm(thi.state.code).then(function (result) {
-                                // Add a new document in collection "users"
                                 email = email.toLowerCase();
                                 Firebase.firestore().collection("users").doc(email.toLowerCase()).set({
                                     email: email,

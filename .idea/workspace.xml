@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86fee034-1819-47ed-a2c1-b695caca9dd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/account/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/account/Signup.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -20,14 +18,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="303" column="104" selection-start-line="303" selection-start-column="104" selection-end-line="303" selection-end-column="104" />
+            <state relative-caret-position="4260">
+              <caret line="289" column="93" selection-start-line="289" selection-start-column="93" selection-end-line="289" selection-end-column="93" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <marker date="1562917542724" expanded="true" signature="6732:6864" ph="..." />
+                <marker date="1562924368244" expanded="true" signature="6632:6764" ph="..." />
               </folding>
             </state>
           </provider>
@@ -54,10 +52,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#490#542#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/links.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -111,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/actions/signUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+            <state relative-caret-position="90">
+              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -127,7 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reca</find>
       <find>fade</find>
       <find>signup</find>
       <find>phon</find>
@@ -138,7 +136,6 @@
       <find>return</find>
       <find>thi.state.confirmResult</find>
       <find>setstate</find>
-      <find>render</find>
       <find>signupButton</find>
       <find>thi.state.confirmResult.confirm</find>
       <find>confirmResult</find>
@@ -157,6 +154,8 @@
       <find>didmou</find>
       <find>recaptcha-container</find>
       <find>window.recaptchaVerifier.reset</find>
+      <find>onsubmi</find>
+      <find>render</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -184,12 +183,12 @@
         <option value="$PROJECT_DIR$/src/views/account/login.css" />
         <option value="$PROJECT_DIR$/src/styles/customize.css" />
         <option value="$PROJECT_DIR$/src/views/Routes.js" />
-        <option value="$PROJECT_DIR$/src/actions/signUp.js" />
         <option value="$PROJECT_DIR$/src/views/account/Signup.js" />
+        <option value="$PROJECT_DIR$/src/actions/signUp.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="711" />
     <option name="y" value="248" />
     <option name="width" value="340" />
@@ -201,6 +200,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,28 +208,16 @@
               <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pdf_viewer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../journeylife" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -267,18 +255,27 @@
       <workItem from="1562911750278" duration="1772000" />
       <workItem from="1562913577244" duration="1923000" />
       <workItem from="1562915577564" duration="1757000" />
-      <workItem from="1562917479644" duration="83000" />
+      <workItem from="1562917479644" duration="535000" />
+      <workItem from="1562924243396" duration="1336000" />
+      <workItem from="1562926319935" duration="1016000" />
+      <workItem from="1562928147259" duration="1241000" />
+      <workItem from="1562929965146" duration="656000" />
+      <workItem from="1562931777654" duration="601000" />
+      <workItem from="1562933600681" duration="600000" />
+      <workItem from="1562935543318" duration="601000" />
+      <workItem from="1562937371282" duration="599000" />
+      <workItem from="1562939190823" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52902000" />
+    <option name="totallyTimeSpent" value="60602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="749" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="749" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -416,6 +413,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4260">
+          <caret line="289" column="93" selection-start-line="289" selection-start-column="93" selection-end-line="289" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <marker date="1562924368244" expanded="true" signature="6632:6764" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9705">
@@ -432,10 +440,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#490#542#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -470,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/links.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -480,21 +489,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/signUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="10" column="66" lean-forward="true" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        <state relative-caret-position="90">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="303" column="104" selection-start-line="303" selection-start-column="104" selection-end-line="303" selection-end-column="104" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <marker date="1562917542724" expanded="true" signature="6732:6864" ph="..." />
           </folding>
         </state>
       </provider>
