@@ -75,6 +75,12 @@ const Layout = ({ children }) => (
                 <div className="headerNav">
                   <HeaderLink to="/" className="navTitle w-nav">JourneyLIFE Admin</HeaderLink>
                   <div className="navBar">
+                    <HeaderLink to={`/members`} className="nav-link">
+                      <img src={require("../../media/members.svg")} className="navIcon" alt={'members icon'} />
+                    </HeaderLink>
+                    <HeaderLink to={`/teams`} className="nav-link">
+                      <img src={require(`../../media/team.svg`)} className="navIcon" alt={'teams icon'} />
+                    </HeaderLink>
                     <HeaderLink to={`/account`} className="nav-link">
                       <img src={require(`../../media/accountIcon.png`)} className="navIcon" alt={'account icon'} />
                     </HeaderLink>
