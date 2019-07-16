@@ -24,7 +24,6 @@ function setCurrent() {
       current.className = "menu-item";
     }
     for (let i = 0; i < links.length; i++) {
-      console.log(window.location.pathname + " " + links[i].href)
       if (window.location.pathname === links[i].href) {
         this.className += " w-current";
         return;

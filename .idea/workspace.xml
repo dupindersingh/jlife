@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86fee034-1819-47ed-a2c1-b695caca9dd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/dialogBox/addManagerDialogBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/member.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/members.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/team-member.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/team.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/media/work-team.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/design.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/members/Members.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/teams/TeamDetails.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/teams/Teams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/dialogBox/changeUserToManagerDialogBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/customize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/account/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/account/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/account/signup.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/members/Members.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/members/Members.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/teams/TeamDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/teams/TeamDetails.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/functions/node_modules/" />
@@ -37,48 +22,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="28" column="93" lean-forward="true" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
+            <state relative-caret-position="240">
+              <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#127#152#0" expanded="true" />
-                <element signature="e#490#542#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/firebase/index.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="768" column="60" selection-start-line="768" selection-start-column="60" selection-end-line="768" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/members/Members.js">
+        <entry file="file://$PROJECT_DIR$/src/views/teams/TeamDetails.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="230" column="19" selection-start-line="230" selection-start-column="19" selection-end-line="230" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
-                <marker date="1563200762683" expanded="true" signature="4272:4355" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/dashboard/dialogBox/changeUserToManagerDialogBox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/members/Members.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <marker date="1563262115781" expanded="true" signature="4326:4409" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/dashboard/dialogBox/addManagerDialogBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="180">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/account/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
+            <state relative-caret-position="375">
               <caret line="28" column="37" selection-start-line="27" selection-start-column="27" selection-end-line="28" selection-end-column="37" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
@@ -111,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/account/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+            <state relative-caret-position="1020">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -120,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/logInEmail.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="150">
               <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -132,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/signUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="30">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -144,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="15">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -157,21 +144,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>didmou</find>
-      <find>recaptcha-container</find>
-      <find>window.recaptchaVerifier.reset</find>
-      <find>onsubmi</find>
-      <find>customi</find>
-      <find>button</find>
-      <find>addThisManagerTeamEmployee</find>
       <find>dialogBox</find>
       <find>closeDialogBox</find>
-      <find>didmount</find>
       <find>addManagerTeam</find>
       <find>handle</find>
       <find>submit</find>
       <find>addThisManager</find>
-      <find>console.log</find>
       <find>checkvalidity(_</find>
       <find>------</find>
       <find>manager_fname</find>
@@ -180,13 +158,22 @@
       <find>newManagerDetails.manager</find>
       <find>changeThisManager</find>
       <find>already</find>
-      <find>console</find>
       <find>manager_email</find>
       <find>addThisManagerTeam</find>
-      <find>newManagerDetails</find>
       <find>changeThisManagerTeamEmployee</find>
+      <find>open</find>
+      <find>get</find>
+      <find>didmount</find>
+      <find>closeAddManagerDialogBox</find>
+      <find>close</find>
+      <find>isCheckboxChecked</find>
+      <find>checkboxSelected</find>
       <find>render</find>
+      <find>newManagerDetails</find>
+      <find>state.team</find>
       <find>alert</find>
+      <find>console</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -213,7 +200,6 @@
         <option value="$PROJECT_DIR$/src/styles/customize.css" />
         <option value="$PROJECT_DIR$/src/actions/signUp.js" />
         <option value="$PROJECT_DIR$/src/views/Routes.js" />
-        <option value="$PROJECT_DIR$/src/views/layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/views/account/signup.css" />
         <option value="$PROJECT_DIR$/src/views/account/Signup.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -221,6 +207,9 @@
         <option value="$PROJECT_DIR$/src/views/App.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/dialogBox/addMemberDialogBox.js" />
         <option value="$PROJECT_DIR$/src/components/dashboard/dialogBox/addManagerDialogBox.js" />
+        <option value="$PROJECT_DIR$/src/components/dashboard/dialogBox/changeUserToManagerDialogBox.js" />
+        <option value="$PROJECT_DIR$/src/views/teams/TeamDetails.js" />
+        <option value="$PROJECT_DIR$/src/views/layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/views/members/Members.js" />
       </list>
     </option>
@@ -254,7 +243,22 @@
               <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="journeylife-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="journeylife-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogBox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,18 +323,19 @@
       <workItem from="1562935543318" duration="601000" />
       <workItem from="1562937371282" duration="599000" />
       <workItem from="1562939190823" duration="598000" />
-      <workItem from="1563171870352" duration="22281000" />
+      <workItem from="1563171870352" duration="22455000" />
+      <workItem from="1563251188619" duration="11306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82883000" />
+    <option name="totallyTimeSpent" value="94363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1368" height="749" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28965002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28890544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -345,7 +350,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4184168" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3069467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -470,19 +475,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/account/signup.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/account/signup.css" />
     <entry file="file://$PROJECT_DIR$/src/views/account/account.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/customize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/customize.css" />
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -501,29 +498,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/App.js">
+    <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="390">
+          <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/logInEmail.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/firebase/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="11520">
+          <caret line="768" column="60" selection-start-line="768" selection-start-column="60" selection-end-line="768" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/account/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
+        <state relative-caret-position="375">
           <caret line="28" column="37" selection-start-line="27" selection-start-column="27" selection-end-line="28" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -531,28 +525,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Routes.js">
+    <entry file="file://$PROJECT_DIR$/src/views/account/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="40" selection-start-line="23" selection-start-column="40" selection-end-line="23" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#127#152#0" expanded="true" />
-            <element signature="e#490#542#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1020">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/firebase/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/actions/logInEmail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="768" column="60" selection-start-line="768" selection-start-column="60" selection-end-line="768" selection-end-column="60" />
+        <state relative-caret-position="150">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/signUp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
+        <state relative-caret-position="30">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
@@ -560,27 +552,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/account/Signup.js">
+    <entry file="file://$PROJECT_DIR$/src/views/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" column="93" lean-forward="true" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+        <state relative-caret-position="15">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/account/login.css">
+    <entry file="file://$PROJECT_DIR$/src/views/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#127#152#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/dashboard/dialogBox/addManagerDialogBox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -589,11 +585,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/members/Members.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="230" column="19" selection-start-line="230" selection-start-column="19" selection-end-line="230" selection-end-column="19" />
+        <state relative-caret-position="147">
+          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
-            <marker date="1563200762683" expanded="true" signature="4272:4355" ph="..." />
+            <marker date="1563262115781" expanded="true" signature="4326:4409" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/dashboard/dialogBox/changeUserToManagerDialogBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/teams/TeamDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="162" column="27" lean-forward="true" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>

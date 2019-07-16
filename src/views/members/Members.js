@@ -32,29 +32,7 @@ class Menu extends React.Component {
         }
     }
 
-    componentDidMount() {
-        thi = this;
-        Firebase.firestore().collection("users").where("role", "==", "user").get()
-            .then(snapshot => {
-                if (snapshot.empty) {
-                    console.log('No matching documents.');
-                    return;
-                }
-                snapshot.forEach((doc) => {
-                    Firebase.firestore().collection("users").doc(doc.id).get().then((doc) => {
-                        if (doc) {
-                            let employee = thi.state.employee;
-                            let data = doc.data();
-                            data.value = doc.data().email;
-                            data.label = doc.data().email;
-                            employee.push(data);
-                            thi.setState({
-                                employee
-                            })
-                        }
-                    })
-                })
-            });
+    getManagers () {
         const teams = Firebase.firestore().collection("teams").get();
         teams.then((all_teams) => {
             all_teams.forEach((t) => {
@@ -91,8 +69,33 @@ class Menu extends React.Component {
             })
         })
     }
+    componentDidMount() {
+        thi = this;
+        thi.getManagers();
+    }
 
     openAddManagerDialogBox() {
+        Firebase.firestore().collection("users").where("role", "==", "user").get()
+            .then(snapshot => {
+                if (snapshot.empty) {
+                    console.log('No matching documents.');
+                    return;
+                }
+                snapshot.forEach((doc) => {
+                    Firebase.firestore().collection("users").doc(doc.id).get().then((doc) => {
+                        if (doc) {
+                            let employee = thi.state.employee;
+                            let data = doc.data();
+                            data.value = doc.data().email;
+                            data.label = doc.data().email;
+                            employee.push(data);
+                            thi.setState({
+                                employee
+                            })
+                        }
+                    })
+                })
+            });
         this.setState({
             openDialogBox: true,
             addManager: true,
@@ -123,6 +126,7 @@ class Menu extends React.Component {
         });
         document.getElementById("dialogBox").style.display = "none";
         document.getElementById("dialogBox").classList.remove("in");
+        thi.getManagers()
     }
 
     changeThisManager(e) {
@@ -236,7 +240,6 @@ class Menu extends React.Component {
                     }
                 });
                 if (isAlreadyTeam) {
-                    console.log("already exist team")
                     // already team exist...
                 } else {
                     Firebase.firestore().collection("teams").doc(thi.state.newManagerDetails.team).set({
@@ -284,7 +287,6 @@ class Menu extends React.Component {
 
     render() {
         const {employee} = this.state;
-        console.log(employee, "all employee users..")
         return (
             <Page>
                 <FirebaseAuth>
