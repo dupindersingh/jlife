@@ -67,7 +67,7 @@ const Layout = ({ children }) => (
         }
         if (auth) {
           if (window.location.pathname === "/") {
-            return <Redirect to={{ pathname: "/employees" }} />
+            return <Redirect to={{ pathname: "/members" }} />
           } else {
             return [
               <div className="header" key="header">
