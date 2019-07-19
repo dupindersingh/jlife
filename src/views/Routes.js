@@ -8,6 +8,9 @@ import Account from './account/Account'
 import Error from './misc/Error'
 import Signup from './account/Signup'
 import Login from './account/Login';
+import Members from './members/Members';
+import Teams from './teams/Teams';
+import TeamDetails from './teams/TeamDetails';
 import Dashboard from './dashboard/Dashboard'
 import Employees from './Employees/Employees'
 // import ComingSoon from './misc/ComingSoon';
@@ -24,6 +27,9 @@ const Routes = () => (
     {/*<Route path="/employees" component={Employees} />*/}
     {/*<Route path="/settings" component={Settings} />*/}
     <Route path="/account" component={Account} />
+      <Route path="/members" component={Members}/>
+      <Route exact path="/teams" component={Teams}/>
+      <Route exact path="/teams/:team/details" component={TeamDetails}/>
     {/*<Route path="/pulses" component={Pulses} />*/}
     <Route component={Error} />
   </Switch>

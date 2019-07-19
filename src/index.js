@@ -8,7 +8,6 @@ import 'firebase/firestore'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactGA from 'react-ga'
-import './styles/customize.css';
 import App from './views/App'
 
 console.log('create-react-app env:', process.env.NODE_ENV);
